@@ -1,0 +1,62 @@
+html {
+  background-image: url("pozadie.png");
+  background-size: cover;
+  background-position: center;
+}
+.zadnyObrazok {
+  text-align: center;
+}
+.main {
+  background-color: #33b5e5;
+  color: #ffffff;
+  padding:5px 15px 15px 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.right {
+  background-color: white;
+  padding: 15px;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.obr {
+  width:100%;
+  height: auto;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th {
+  width: 200px;
+  padding: 5px;
+}
+td {
+  padding: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+p, li, ol {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hlavne {
+  padding: 8px;
+  /*margin-bottom: 7px;*/
+  background-color: #330000;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  cursor: pointer;
+}
+.opacne {
+  padding: 8px;
+  color: #4d0000;
+  background-color: #f2f2f2;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  cursor: pointer;
+}
+.red {
+  color: #4d0000;
+}
