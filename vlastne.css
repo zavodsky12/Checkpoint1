@@ -30,16 +30,26 @@ table, th, td {
 }
 th {
   width: 200px;
-  padding: 5px;
+  padding: 8px;
+  background-color: #202060;
 }
 td {
-  padding: 5px;
+  padding: 8px;
+  /*background-color: #ececf8;*/
+  color: black;
+}
+tr:nth-child(odd) {
+  background-color: #ececf8;
+}
+tr:nth-child(even) {
+  /*background-color: #b3b3cc;*/
+  background-color: white;
 }
 a {
   color: white;
   text-decoration: none;
 }
-p, li, ol {
+p, li, ol, th, td {
   font-family: Arial, Helvetica, sans-serif;
 }
 .hlavne {
@@ -59,4 +69,14 @@ p, li, ol {
 }
 .red {
   color: #4d0000;
+}
+.hrube {
+  font-weight: bold;
+}
+.zlava {
+  text-align: left;
+  /*font-size: 18px;*/
+}
+.mensie {
+  width: 100px;
 }
